@@ -10,4 +10,12 @@
 
 @interface ViewController : UIViewController
 
+
+@property (weak, nonatomic) IBOutlet UIButton *push;
+@property (weak, nonatomic) IBOutlet UIButton *notifyButton;
+@property (weak, nonatomic) IBOutlet UITextField *firtTextField;
+@property (weak, nonatomic) IBOutlet UITextField *secondTextField;
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
+@property (weak, nonatomic) IBOutlet UITextField *validateTextField;
+
 @end
